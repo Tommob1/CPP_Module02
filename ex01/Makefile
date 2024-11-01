@@ -6,7 +6,7 @@
 #    By: btomlins <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/01 21:48:24 by btomlins          #+#    #+#              #
-#    Updated: 2024/11/01 21:49:30 by btomlins         ###   ########.fr        #
+#    Updated: 2024/11/01 21:50:51 by btomlins         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ INFILES = 	main.cpp Fixed.cpp\
 
 OBJFILES = $(INFILES:.cpp=.o)
 
-NAME = My_first_class_in_orthodox_canonical_form
+NAME = Towards_a_more_useful_fixed-point_number_class
 
 all: $(NAME)
 
