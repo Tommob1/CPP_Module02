@@ -6,7 +6,7 @@
 #    By: btomlins <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/02 17:33:56 by btomlins          #+#    #+#              #
-#    Updated: 2024/11/02 17:42:38 by btomlins         ###   ########.fr        #
+#    Updated: 2024/11/02 17:46:38 by btomlins         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ INFILES = 	main.cpp Fixed.cpp\
 
 OBJFILES = $(INFILES:.cpp=.o)
 
-NAME = Now_we're_talking
+NAME = Now_we_talkin
 
 all: $(NAME)
 
