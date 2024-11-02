@@ -6,7 +6,7 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 21:48:19 by btomlins          #+#    #+#             */
-/*   Updated: 2024/11/02 17:23:46 by btomlins         ###   ########.fr       */
+/*   Updated: 2024/11/02 17:28:29 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ class Fixed
 
         float toFloat() const;
         int toInt() const;
-}
+};
 
 std::ostream &operator<<(std::ostream &out, const Fixed &fixed);
 
