@@ -6,14 +6,15 @@
 /*   By: btomlins <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 21:48:21 by btomlins          #+#    #+#             */
-/*   Updated: 2024/11/02 17:27:42 by btomlins         ###   ########.fr       */
+/*   Updated: 2024/11/13 14:51:27 by btomlins         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 #include "Fixed.hpp"
 
-int main() {
+int main() 
+{
     Fixed a;
     Fixed const b(10);
     Fixed const c(42.42f);
